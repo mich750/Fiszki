@@ -18,6 +18,7 @@ def potwierdz(textbox, okno, j_odp, pytanie, pozostale):
     if z.jezyk!=j_odp:
         zamien()
         funkcje.wybierz(z.lista, pytanie)
+        z.jezyk=j_odp
     if textbox.get()=='': liczba_slow=500
     else: liczba_slow=int(textbox.get())
     if len(z.lista)>liczba_slow:
@@ -36,9 +37,9 @@ def ustawienia(pytanie, pozostale):
 
     label2=tk.Label(okno, text="Język odpowiedzi:", font=('Arial', 20))
 
-    var=tk.StringVar(value='pl')
-    radiobutton1=tk.Radiobutton(okno, text='polski', value='pl', variable=var, font=('Arial', 20))
-    radiobutton2=tk.Radiobutton(okno, text='hiszpański', value='hisz', variable=var, font=('Arial', 20))
+    var=tk.StringVar(value=f'{z.jezyk}')
+    radiobutton1=tk.Radiobutton(okno, text='hiszpański', value='esp', variable=var, font=('Arial', 20))
+    radiobutton2=tk.Radiobutton(okno, text='polski', value='pl', variable=var, font=('Arial', 20))
 
     przycisk1=tk.Button(okno, text="Zastosuj", font=('Arial', 20), command=lambda: potwierdz(tekst, okno, var.get(), pytanie, pozostale))
     przycisk2=tk.Button(okno, text='Anuluj', font=('Arial', 20), command=lambda: okno.destroy())

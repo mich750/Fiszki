@@ -3,7 +3,7 @@ import tkinter as tk
 import zmienne as z
 
 def przygotuj():
-    f = open(r'hiszpańskie słówka.txt', 'r', encoding="utf-8")
+    f = open(r'hiszpańskie słówka 2.txt', 'r', encoding="utf-8")
     slowka=[]
     for line in f:
         slowka.append(line)
@@ -14,8 +14,8 @@ def przygotuj():
     for i in slowka:
         hiszpanski, polski = i.split(' - ')
         polski=polski[:-1]
-        z.slownik[hiszpanski]=polski
-        z.lista.append(hiszpanski)
+        z.slownik[polski]=hiszpanski
+        z.lista.append(polski)
 
 def sprawdz(box, slownik, lista, pytanie, pozostale):
     tekst=box.get("1.0", tk.END)

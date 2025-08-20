@@ -20,11 +20,11 @@ root.config(menu=menu_glowne)
 menu=tk.Menu(menu_glowne, tearoff=0)
 menu_glowne.add_cascade(label='Menu', menu=menu)
 menu.add_command(label="Ustawienia", command=lambda: m.ustawienia(slowko, pozostale))
-menu.add_command(label='Wyjdź (Esc)', command=lambda: root.quit())
+menu.add_command(label='Wyjdź (Esc)', command=lambda: root.destroy())
 
 f.wybierz(z.lista, slowko)
 
-root.bind('<Escape>', lambda x: root.quit())
+root.bind('<Escape>', lambda x: root.destroy())
 root.bind('<Return>', lambda x: f.sprawdz(tekst, z.slownik, z.lista, slowko, pozostale))
 
 root.mainloop()

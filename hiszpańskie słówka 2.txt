@@ -1,0 +1,91 @@
+el amigo - przyjaciel
+la amiga - przyjaciółka
+el vecino - sąsiad
+la vecina - sąsiadka
+el hombre - mężczyzna
+la mujer - kobieta
+el niño - dziecko (chłopiec)
+la niña - dziecko (dziewczynka)
+la gente - ludzie
+la persona - osoba
+el nombre - imię
+el apellido - nazwisko
+el padre - ojciec
+la madre - matka
+el hermano - brat
+la hermana - siostra
+el hijo - syn
+la hija - córka
+el abuelo - dziadek
+la abuela - babcia
+el perro - pies
+el gato - kot
+el pájaro - ptak
+el pez - ryba
+la vaca - krowa
+el caballo - koń
+la escuela - szkoła
+la universidad - uniwersytet
+el estudiante - student
+la tarea - zadanie
+aprender - uczyć się
+enseñar - uczyć (kogoś)
+leer - czytać
+escribir - pisać
+hablar - mówić
+escuchar - słuchać
+ver - widzieć
+mirar - patrzeć
+abrir - otwierać
+cerrar - zamykać
+entrar - wchodzić
+salir - wychodzić
+ir - iść
+venir - przychodzić
+correr - biegać
+caminar - spacerować
+dormir - spać
+despertarse  - budzić się
+comer - jeść
+beber - pić
+cocinar - gotować
+limpiar - sprzątać
+trabajar - pracować
+descansar - odpoczywać
+jugar - grać/bawić się
+cantar - śpiewać
+bailar - tańczyć
+pintar - malować
+dibujar - rysować
+preguntar - pytać
+responder - odpowiadać
+ayudar - pomagać
+necesitar - potrzebować
+querer - chcieć
+amar - kochać
+gustar - lubić
+tener - mieć
+ser - być (stałe cechy)
+estar - być (stan chwilowy)
+hacer - robić
+decir - powiedzieć
+pensar - myśleć
+saber - wiedzieć/umieć
+conocer - znać/poznać
+vivir - żyć/mieszkać
+morir - umierać
+comprar - kupować
+vender - sprzedawać
+pagar - płacić
+tomar - brać
+llevar - nosić/zabrać
+poner - kłaść
+usar - używać
+esperar - czekać
+viajar - podróżować
+conducir - prowadzić (auto)
+volar - latać
+volver - wracać
+empezar - zaczynać
+terminar - kończyć
+jugar - grać

@@ -4,4 +4,4 @@ global slownik
 
 lista=[]
 slownik={}
-jezyk='pl'
+jezyk='esp'
